@@ -57,6 +57,20 @@
                             </li>
                          </ul>
                     </fieldset>
+                    <fieldset>
+                        <legend>Стоимость в сутки (Р):</legend>
+                        <p>от <span>0</span></p>
+                        <p>до <span>5000</span></p>
+                        <div class="filter-price-slider">
+                            <div class="price-slider" id="range-slider"></div>
+                        </div>
+                        <div class="visually-hidden">
+                            <label for="min-price-value">Минимальая цена</label>
+                            <input type="text" id="min-price-value" name="min-price-value" tabindex="-1">
+                            <label for="max-price-value">Максимальная цена</label>
+                            <input type="text" id="max-price-value" name="max-price-value" tabindex="-1">
+                        </div>
+                    </fieldset>
                     <button type="submit" class="button filter-button">Показать</button>
                 </form>
             </section>

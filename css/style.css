@@ -16,6 +16,69 @@
       
 }
 
+/*Общие стили*/
+
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 35px;
+  font-weight: normal;
+  color: #333333;
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+
+/*Хэдэр главной*/
+
+.main-navigation {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 20px;
+
+  background-color: white;
+}
+
+.site-navigation {
+  list-style: none;
+}
+
+.site-navigation a {
+  color: black;
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus {
+  color: #81b3d2;
+}
+
+.site-navigation a:active {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+
+
+/*Основное содержание*/
+
+.about {
+  text-align: center;
+}
+
+.spaces {
+  list-style: none;
+}
+
+
+/*Футер главной*/
+
+
 .visually-hidden {
     position: absolute;
     width: 1px;

@@ -3,6 +3,10 @@
     <head>
         <meta charset="utf-8"/>
         <title>SEDONA</title>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
     </head>
     <body>
         <header class="page-header">
@@ -11,10 +15,10 @@
                     <img src="img/logo.svg" width="140" height="71" alt="Логотип города Седона">
                 </a>
                 <ul class="site-navigation">
-                    <li><a href="#">Информация</a></li>
-                    <li><a href="#">Фото и видео</a></li>
-                    <li><a href="#">Карта штата</a></li>
-                    <li><a href="hotels.html">Гостиницы</a></li>
+                    <li class="navigation-item"><a href="#">Информация</a></li>
+                    <li class="navigation-item"><a href="#">Фото и видео</a></li>
+                    <li class="navigation-item"><a href="#">Карта штата</a></li>
+                    <li class="navigation-item"><a href="hotels.html">Гостиницы</a></li>
                 </ul>
             </nav>
             <h1 class="visually-hidden">Отели Седоны</h1>
@@ -22,6 +26,7 @@
         <main class="container">
             <section class="hotels-filter">
                 <h2 class="visually-hidden">Фильтр гостиниц</h2>
+                <img src="img/blur-background.jpg" width="1200" height="562" alt="">
                 <form class="filter" method="GET" action="https://echo.htmlacademy.ru">
                     <fieldset>
                         <legend>Инфраструктура:</legend>

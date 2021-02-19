@@ -43,19 +43,19 @@
             <section class="city-spaces">
                 <ul class="spaces">
                     <li class="spaces-item">
+                        <img src="img/housing.svg" width="75" height="72" alt="">
                         <h2 class=".main-subtitle">Жильё</h2>
                         <p>Рекомендуем пожить в настоящем<br> мотеле, все как в кино!</p>
-                        <img src="img/housing.svg" width="75" height="72" alt="">
                     </li>
                     <li class="spaces-item">
+                        <img src="img/food.svg" width="74" height="70" alt="">
                         <h2 class=".main-subtitle">Еда</h2>
                         <p>Всегда заказывайте фирменный бургер,<br> вы не разочаруетесь!</p>
-                        <img src="img/food.svg" width="74" height="70" alt="">
                     </li>
                     <li class="spaces-item">
+                        <img src="img/souvenirs.svg" width="64" height="76" alt="">
                         <h2 class=".main-subtitle">Сувениры</h2>
                         <p>Не только китайского, но и местного<br> производства!</p>
-                        <img src="img/souvenirs.svg" width="64" height="76" alt="">
                     </li>
                 </ul>
             </section>
@@ -91,27 +91,6 @@
                 <p class="search-interest">Заинтересовались?</p>
                 <p>Укажите предполагаемые даты поездки,<br> и мы покажем вам лучшие предложения гостиниц в Седоне</p>
                 <button class="button search-button">Поиск гостиницы в седоне</button>
-                <form class="search-form" action="https://echo.htmlacademy.ru" method="POST">
-                    <p class="search-form-item">
-                        <label for="arrival-date">Дата заезда:</label>
-                        <input id="arrival-date" type="text" name="arrival-date" placeholder="24 апреля 2017">
-                        <img src="img/calendar.svg" width="21" height="22" alt="каледарь">
-                    </p>
-                    <p class="search-form-item">    
-                        <label for="departure-date">Дата выезда:</label>
-                        <input id="departure-date" type="text" name="departure-date" placeholder="4 июля 2017">
-                        <img src="img/calendar.svg" width="21" height="22" alt="каледарь">
-                    </p>
-                    <p class="search-form-item">
-                        <label for="adults">Взрослые:</label>
-                        <input id="adults" type="number" name="adults" value="2">
-                    </p>
-                    <p class="search-form-item">    
-                        <label for="children">Дети:</label>
-                        <input id="children" type="number" name="children" value="0">
-                    </p>    
-                    <button class="button" type="submit">Найти</button>
-                </form>
             </section>
             <section class="map">
                 <h2 class="visually-hidden">Как нас найти</h2>
@@ -150,6 +129,29 @@
                     </p>
                 </div>
             </footer>
+            <section class="modal modal-search">
+                <form class="search-form" action="https://echo.htmlacademy.ru" method="POST">
+                    <p class="search-form-item">
+                        <label for="arrival-date">Дата заезда:</label>
+                        <input id="arrival-date" type="text" name="arrival-date" placeholder="24 апреля 2017">
+                        <img src="img/calendar.svg" width="21" height="22" alt="каледарь">
+                    </p>
+                    <p class="search-form-item">    
+                        <label for="departure-date">Дата выезда:</label>
+                        <input id="departure-date" type="text" name="departure-date" placeholder="4 июля 2017">
+                        <img src="img/calendar.svg" width="21" height="22" alt="каледарь">
+                    </p>
+                    <p class="search-form-item">
+                        <label for="adults">Взрослые:</label>
+                        <input id="adults" type="number" name="adults" value="2">
+                    </p>
+                    <p class="search-form-item">    
+                        <label for="children">Дети:</label>
+                        <input id="children" type="number" name="children" value="0">
+                    </p>    
+                    <button class="button submit-button" type="submit">Найти</button>
+                </form>
+            </section>
         </main>
     </body>
 </html>

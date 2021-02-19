@@ -137,6 +137,74 @@ a {
   line-height: 26px;
 }
 
+.button {
+  font-size: 21px;
+  font-weight: bold;
+
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  text-transform: uppercase;
+
+  border: none;
+}
+
+.search-button {
+  background-color: #766357;
+}
+
+.search-button:hover,
+.search-button:focus {
+  background-color: #604e43;
+}
+
+.search-button:active {
+  color: rgba(255, 255, 255, 0.3);
+  background-color: #503e33;
+}
+
+.submit-button {
+  background-color: #81b3d2;
+}
+
+.submit-button:hover,
+.submit-button:focus {
+  background-color: #669ec0;
+}
+
+.submit-button:active {
+  color: rgba(255, 255, 255, 0.3);
+  background-color: #5496bd;
+}
+
+.search-form-item input {
+  font-size: 14px;
+  font-weight: bold;
+
+  color: black;
+  text-transform: uppercase;
+
+  background-color: #f2f2f2;
+  border: none;
+}
+
+::placeholder {
+  font-size: 14px;
+  font-weight: bold;
+
+  color: black;
+  text-transform: uppercase;
+}
+
+.search-form-item input:hover {
+  background-color: #ebebeb;
+}
+
+.search-form-item input:focus {
+  background-color: transparent;
+  border: 2px solid #ebebeb;
+}
+
 
 /*Футер главной*/
 
@@ -150,6 +218,10 @@ a {
   background-color: rgba(242, 242, 242, 0.9);;
 }
 
+.socials {
+  text-align: center;
+}
+
 .social-pages {
   list-style: none;
 }
@@ -158,6 +230,8 @@ a {
   background-color: #81b3d2;
 }
 
-.developer-logo img {
-  color: black;
+/*Модальное окно*/
+
+.modal {
+  background-color: #ffffff;
 }

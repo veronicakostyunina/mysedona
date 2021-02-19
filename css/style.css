@@ -34,9 +34,25 @@ a {
   text-decoration: none;
 }
 
-
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 
 /*Хэдэр главной*/
+
+.main-header {
+  background-color: #c4dbe9;
+  background-image: url("../img/background-photo.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+}
 
 .main-navigation {
   font-size: 14px;
@@ -63,6 +79,10 @@ a {
   color: rgba(0, 0, 0, 0.3);
 }
 
+.main-introduction {
+  text-align: center;
+}
+
 
 
 /*Основное содержание*/
@@ -71,21 +91,73 @@ a {
   text-align: center;
 }
 
-.spaces {
+.spaces,
+.other-causes-list {
   list-style: none;
+}
+
+.true-city,
+.spaces-item,
+.devil-bridge,
+.causes-list-item {
+  text-align: center;
+}
+
+.main-subtitle {
+  color: black;
+  font-size: 21px;
+  line-height: 21px;
+}
+
+.true-city,
+.devil-bridge,
+.true-city h2,
+.devil-bridge h2 {
+  background-color: #81b3d2;
+  color: white;
+}
+
+.other-causes {
+  background-color: #eeeeee;
+}
+
+.search {
+  text-align: center;
+}
+
+.search-interest {
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.search-form label {
+  color: black;
+  font-weight: bold;
+  line-height: 26px;
 }
 
 
 /*Футер главной*/
 
+.main-footer a {
+  font-size: 21px;
+  font-weight: bold;
+  color: black;
+}
 
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-  }
+.main-footer {
+  background-color: rgba(242, 242, 242, 0.9);;
+}
+
+.social-pages {
+  list-style: none;
+}
+
+.social-item {
+  background-color: #81b3d2;
+}
+
+.developer-logo img {
+  color: black;
+}

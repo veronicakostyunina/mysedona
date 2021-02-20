@@ -52,6 +52,7 @@ a {
   background-image: url("../img/background-photo.jpg");
   background-position: top center;
   background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 .main-navigation {
@@ -186,10 +187,11 @@ a {
   font-size: 21px;
   font-weight: bold;
   color: black;
+  line-height: 26px;
 }
 
 .main-footer {
-  background-color: rgba(242, 242, 242, 0.9);;
+  background-color: rgba(255, 255, 255, 0.9);;
 }
 
 .socials {
@@ -239,3 +241,157 @@ a {
   background-color: transparent;
   border: 2px solid #ebebeb;
 }
+
+
+/*Хэдэр страницы отелей*/
+
+.page-navigation {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 26px;
+
+  background-color: white;
+}
+
+.navigation-item-active a,
+.navigation-item-active a:hover,
+.navigation-item-active a:focus,
+.navigation-item-active a:active {
+  color: #766357;
+}
+
+
+/*Основное содержание страницы отрелей*/
+
+.hotels-filter {
+  background-image: url("../img/blur-background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+  color: white;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 21px;
+}
+
+.hotels-filter legend {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.filter-option,
+.filter-list,
+.hotels-list {
+  list-style: none;
+}
+
+.hotels-filter fieldset {
+  border: none;
+}
+
+.filter-button {
+  background-color: transparent;
+  border: 2px solid white;
+
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.filter-button:hover,
+.filter-button:focus {
+  background-color: white;
+  color: black;
+}
+
+.filter-stroke p:first-child {
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 26px;
+}
+
+.filter-stroke p:nth-child(2),
+.filter-stroke li {
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.filter-stroke a {
+  color: rgba(0, 0, 0, 0.3);
+  text-decoration: #81b3d2 dotted underline;
+}
+
+.filter-stroke a:hover,
+.filter-stroke a:focus {
+  color: #81b3d2;
+}
+
+.filter-stroke a:active {
+  color: black;
+  text-decoration: none;
+}
+
+.filter-stroke .active,
+.filter-stroke .active:active {
+  color: #81b3d2;
+  text-decoration: none;
+}
+
+.hotels-list h3 {
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 26px;
+  color: black;
+}
+.hotels-list h3:hover,
+.hotels-list h3:focus {
+  color: #81b3d2;
+}
+
+.hotels-list h3:active {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.hotel-item p {
+  font-size: 14px;
+  line-height: 21px;
+  color: #333333;
+}
+
+.hotel-item .rate {
+  color: #666666;
+  background-color: #f2f2f2;
+}
+
+.info-button {
+  background-color: #81b3d2;
+  font-size: 14px;
+}
+
+.info-button:hover,
+.info-button:focus {
+  background-color: #669ec0;
+}
+
+.info-button:active {
+  background-color: #5496bd;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.to-book-button {
+  background-color: #766357;
+  font-size: 14px;
+}
+
+.to-book-button:hover,
+.to-book-button:focus {
+  background-color: #604e43;
+}
+
+.to-book-button:active {
+  background-color: #503e33;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+/*Футер страницы отелей*/
+

@@ -9,7 +9,7 @@
         <link href="css/style.css" rel="stylesheet">
         
     </head>
-    <body>
+    <body class="inner-page">
         <header class="page-header">
             <nav class="page-navigation">
                 <a class="page-header-logo" href="index.html">
@@ -19,7 +19,7 @@
                     <li class="navigation-item"><a href="#">Информация</a></li>
                     <li class="navigation-item"><a href="#">Фото и видео</a></li>
                     <li class="navigation-item"><a href="#">Карта штата</a></li>
-                    <li class="navigation-item"><a href="hotels.html">Гостиницы</a></li>
+                    <li class="navigation-item navigation-item-active"><a href="hotels.html">Гостиницы</a></li>
                 </ul>
             </nav>
             <h1 class="visually-hidden">Отели Седоны</h1>
@@ -27,7 +27,6 @@
         <main class="container">
             <section class="hotels-filter">
                 <h2 class="visually-hidden">Фильтр гостиниц</h2>
-                <img src="img/blur-background.jpg" width="1200" height="562" alt="">
                 <form class="filter" method="GET" action="https://echo.htmlacademy.ru">
                     <fieldset>
                         <legend>Инфраструктура:</legend>
@@ -83,10 +82,10 @@
             <section class="hotels">
                 <h2 class="visually-hidden">Список гостиниц</h2>
                 <div class="filter-stroke">
-                    <p>Найдено:3</p>
+                    <p>Найдено: 3</p>
                     <p>Сортировка:</p>
                     <ul class="filter-list">
-                        <li><a href="#">По цене</a></li>
+                        <li><a class="active" href="#">По цене</a></li>
                         <li><a href="#">По типу</a></li>
                         <li><a href="#">По рейтингу</a></li>
                     </ul>
@@ -154,18 +153,18 @@
             </div>
             <div class="socials">
                 <ul class="social-pages">
-                    <li>
-                        <a href="#">Twitter
+                    <li class="social-item">
+                        <a href="#"><span class="visually-hidden">Twitter</span>
                             <img src="img/tw-icon.svg" width="17" height="15" alt="">
                         </a>
                     </li>
-                    <li>
-                        <a href="#">Facebook
+                    <li class="social-item">
+                        <a href="#"><span class="visually-hidden">Facebook</span>
                             <img src="img/fb-icon.svg" width="12" height="22" alt="">
                         </a>
                     </li>
-                    <li>
-                        <a href="#">YouTube
+                    <li class="social-item">
+                        <a href="#"><span class="visually-hidden">YouTube</span>
                             <img src="img/youtube-icon.svg" width="20" height="16" alt="">
                         </a>
                     </li>

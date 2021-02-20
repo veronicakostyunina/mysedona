@@ -62,19 +62,23 @@
                             </li>
                          </ul>
                     </fieldset>
-                    <fieldset>
+                    <fieldset class="price-filter-block">
                         <legend>Стоимость в сутки (Р):</legend>
-                        <p>от <span>0</span></p>
-                        <p>до <span>5000</span></p>
-                        <div class="filter-price-slider">
-                            <div class="price-slider" id="range-slider"></div>
-                        </div>
-                        <div class="visually-hidden">
-                            <label for="min-price-value">Минимальая цена</label>
-                            <input type="text" id="min-price-value" name="min-price-value" tabindex="-1">
-                            <label for="max-price-value">Максимальная цена</label>
-                            <input type="text" id="max-price-value" name="max-price-value" tabindex="-1">
-                        </div>
+                        <div class="price-filter-subblock">
+                            <div class="price-output">
+                              <p>от <span id="min-price">0</span></p>
+                              <p>до <span id="max-price">5000</span></p>
+                            </div>
+                            <div class="filter-price-slider">
+                              <div class="price-slider" id="range-slider"></div>
+                            </div>
+                            <div class="visually-hidden">
+                              <label for="min-price-value">Минимальая цена</label>
+                              <input type="text" id="min-price-value" name="min-price-value" tabindex="-1">
+                              <label for="max-price-value">Максимальная цена</label>
+                              <input type="text" id="max-price-value" name="max-price-value" tabindex="-1">
+                            </div>
+                        </div>    
                     </fieldset>
                     <button type="submit" class="button filter-button">Показать</button>
                 </form>
@@ -90,8 +94,18 @@
                         <li><a href="#">По рейтингу</a></li>
                     </ul>
                     <div class="sort-buttons">
-                        <button class="button button-up" type="button"><img src="img/icon-up.svg" width="11" height="10" alt="стрелочка вверх">Сортировка по убыванию</button>
-                        <button class="button button-down" type="button"><img src="img/icon-down.svg" width="11" height="10" alt="стрелочка вниз">Сортировка по возрастанию</button>
+                        <button class="button button-up" type="button">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11 10">
+                                <path class="up" fill="#231F20" d="M5.5 0L0 10h11z"/>
+                            </svg>
+                            <span class="visually-hidden">Сортировка по убыванию</span>
+                        </button>
+                        <button class="button button-down" type="button">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11 10">
+                                <path class="down" fill="#231F20" d="M5.5 10L0 0h11"/>
+                            </svg>
+                            <span class="visually-hidden">Сортировка по возрастанию</span>
+                        </button>
                     </div>
                 </div>
                 <ul class="hotels-list">

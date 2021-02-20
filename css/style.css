@@ -315,6 +315,54 @@ a {
   border: none;
 }
 
+/* Ползунок
+.price-output {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  border: 2px solid #fff;
+  border-radius: 3px;
+  box-sizing: border-box;
+  padding: 3px 0;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.price-output::after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 2px;
+  height: 22px;
+  background-color: #fff;
+  left: 50%;
+  top: 5px;
+}
+
+.price-output p {
+  margin: 0;
+  width: 50%;
+  text-align: center;
+}
+
+.filter-price-slider {
+  margin: 0 auto 32px;
+  width: inherit;
+  position: relative;
+}
+
+.filter-price-slider::after {
+  left: -9px;
+  top: 0;
+  width: 9px;
+}
+
+.filter-price-slider::before {
+  right: -10px;
+  top: 0px;
+}
+*/
+
 .filter-button {
   background-color: transparent;
   border: 2px solid white;
@@ -387,6 +435,33 @@ a {
   color: #666666;
   background-color: #f2f2f2;
 }
+
+.button-up,
+.button-down {
+  background-color: transparent;
+  border: none;
+}
+
+.button-up .up {
+  fill: #cacaca;
+}
+
+.button-down .down {
+  fill: #81b3d2;
+}
+
+.button-up .up:hover,
+.button-up .up:focus,
+.button-down .down:hover,
+.button-down .down:focus {
+  fill: black;
+}
+
+.button-up .up:active,
+.button-down .down:active {
+  fill: #81b3d2;
+}
+
 
 .info-button {
   background-color: #81b3d2;

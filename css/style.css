@@ -24,7 +24,7 @@ body {
 
   font-family: "PT Sans", Arial, sans-serif;
   font-size: 14px;
-  line-height: 35px;
+  line-height: 21px;
   font-weight: normal;
   color: #333333;
   text-transform: uppercase;
@@ -58,7 +58,7 @@ a {
 .main-navigation {
   font-size: 14px;
   font-weight: bold;
-  line-height: 20px;
+  line-height: 26px;
 
   background-color: white;
 }
@@ -202,9 +202,20 @@ a {
   list-style: none;
 }
 
-.social-item {
+.social-item a {
   background-color: #81b3d2;
 }
+
+.social-item a:hover,
+.social-item a:focus {
+  background-color: #669ec0;
+}
+
+.social-item a:active {
+  background-color: #5496bd;
+}
+
+
 
 /*Модальное окно*/
 

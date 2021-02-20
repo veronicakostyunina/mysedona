@@ -215,6 +215,20 @@ a {
   background-color: #5496bd;
 }
 
+.social-item .tw:active,
+.social-item .fb:active,
+.social-item .yt:active {
+  fill: rgba(255, 255, 255, 0.3);
+}
+
+.developer .copyright:hover,
+.developer .copyright:focus {
+  fill: #81b3d2;
+}
+
+.developer .copyright:active {
+  fill: #bdbbbc;
+}
 
 
 /*Модальное окно*/

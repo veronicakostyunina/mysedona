@@ -48,13 +48,15 @@ a {
 /*Хэдэр главной*/
 
 .main-header {
+  display: flex;
+  flex-direction: column;
+
   background-color: #c4dbe9;
   background-image: url("../img/background-photo.jpg");
   background-position: top center;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 100%; 
 }
-
 
 
 .main-navigation {

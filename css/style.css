@@ -127,14 +127,16 @@ a {
   padding-bottom: 38px;
 }
 
-.cause-1 {
+.cause-1,
+.cause-2 {
   display: flex;
 }
 
-.cause-1 .true-city {
+.cause-1 .true-city,
+.cause-2 .devil-bridge {
   width: 400px;
   padding-top: 46px;
-  padding-bottom: 64px;
+  padding-bottom: 6px;
   padding-left: 60px;
   padding-right: 60px;
 }
@@ -142,6 +144,16 @@ a {
 .spaces,
 .other-causes-list {
   list-style: none;
+}
+
+.city-spaces {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.spaces {
+  display: flex;
+  justify-content: space-between;
 }
 
 .true-city,
@@ -165,11 +177,20 @@ a {
   color: white;
 }
 
-.other-causes {
+.city-spaces ~ .wrapper {
   background-color: #eeeeee;
 }
 
+.other-causes-list {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+  padding-bottom: 63px;
+}
+
 .search {
+  padding-top: 50px;
+
   text-align: center;
 }
 
@@ -198,6 +219,9 @@ a {
 }
 
 .search-button {
+  margin-top: 20px;
+  padding: 10px;
+
   background-color: #766357;
 }
 
@@ -225,7 +249,12 @@ a {
   background-color: #5496bd;
 }
 
-
+.map {
+  background-image: url("../img/map.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
 
 
 /*Футер главной*/
@@ -238,15 +267,37 @@ a {
 }
 
 .main-footer {
-  background-color: rgba(255, 255, 255, 0.9);
-  ;
+  position: absolute;
+  bottom: 200px;
+  
+}
+
+.main-footer .wrapper {
+  display: flex;
+  width: 1200px;
+  padding-top: 36px;
+  padding-bottom: 32px;
+
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.contacts {
+  width: 320px;
+  margin: 0;
+  margin-right: 80px;
+  padding-left: 132px;
 }
 
 .socials {
+
   text-align: center;
 }
 
 .social-pages {
+  display: flex;
+  justify-content: space-between;
+
+  width: 100px;
   list-style: none;
 }
 
@@ -261,12 +312,18 @@ a {
 
 .social-item a:active {
   background-color: #5496bd;
+  background-position: top center;
 }
 
 .social-item .tw:active,
 .social-item .fb:active,
 .social-item .yt:active {
   fill: rgba(255, 255, 255, 0.3);
+}
+
+.developer {
+  padding-right: 25px;
+  margin-left: auto;
 }
 
 .developer .copyright:hover,

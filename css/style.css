@@ -79,12 +79,10 @@ a {
 
 .site-navigation {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 
   list-style: none;
 }
-
-.navigation-item {}
 
 .main-header-logo {
   display: block;
@@ -119,7 +117,26 @@ a {
 /*Основное содержание*/
 
 .about {
+  padding-top: 61px;
+  padding-bottom: 56px;
+
   text-align: center;
+}
+
+.about h2 {
+  padding-bottom: 38px;
+}
+
+.cause-1 {
+  display: flex;
+}
+
+.cause-1 .true-city {
+  width: 400px;
+  padding-top: 46px;
+  padding-bottom: 64px;
+  padding-left: 60px;
+  padding-right: 60px;
 }
 
 .spaces,

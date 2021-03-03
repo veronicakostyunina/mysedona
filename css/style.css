@@ -84,7 +84,8 @@ a {
   list-style: none;
 }
 
-.main-header-logo {
+.main-header-logo,
+.page-header-logo {
   display: block;
   width: 138px;
   position: absolute;
@@ -259,7 +260,8 @@ a {
 
 /*Футер главной*/
 
-.main-footer a {
+.main-footer a, 
+.page-footer a {
   font-size: 21px;
   font-weight: bold;
   color: black;
@@ -269,7 +271,6 @@ a {
 .main-footer {
   position: absolute;
   bottom: 200px;
-  
 }
 
 .main-footer .wrapper {

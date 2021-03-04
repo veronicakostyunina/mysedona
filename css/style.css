@@ -84,8 +84,7 @@ a {
   list-style: none;
 }
 
-.main-header-logo,
-.page-header-logo {
+.main-header-logo {
   display: block;
   width: 138px;
   position: absolute;
@@ -178,7 +177,7 @@ a {
   color: white;
 }
 
-.city-spaces ~ .wrapper {
+.city-spaces~.wrapper {
   background-color: #eeeeee;
 }
 
@@ -260,7 +259,7 @@ a {
 
 /*Футер главной*/
 
-.main-footer a, 
+.main-footer a,
 .page-footer a {
   font-size: 21px;
   font-weight: bold;
@@ -384,6 +383,16 @@ a {
   background-color: white;
 }
 
+.page-header-logo {
+  display: block;
+  width: 138px;
+  position: absolute;
+  top: -15px;
+  left: -30px;
+  margin-left: 50%;
+  z-index: 10;
+}
+
 .navigation-item-active a,
 .navigation-item-active a:hover,
 .navigation-item-active a:focus,
@@ -469,6 +478,15 @@ a {
 }
 */
 
+.filter {
+  display: flex;
+  justify-content: space-between;
+}
+
+.price-filter-block {
+  margin-left: auto;
+}
+
 .filter-button {
   background-color: transparent;
   border: 2px solid white;
@@ -483,16 +501,28 @@ a {
   color: black;
 }
 
-.filter-stroke p:first-child {
+
+.filter-list li:first-child {
   font-size: 21px;
   font-weight: bold;
   line-height: 26px;
 }
 
-.filter-stroke p:nth-child(2),
+.filter-list li:nth-child(2),
 .filter-stroke li {
   font-size: 12px;
   line-height: 18px;
+}
+
+.filter-stroke {
+  display: flex;
+}
+
+.filter-list {
+  display: flex;
+  justify-content: space-between;
+
+  width: 600px;
 }
 
 .filter-stroke a {
@@ -516,6 +546,15 @@ a {
   text-decoration: none;
 }
 
+.sort-buttons {
+  margin-left: auto;
+}
+
+.hotels-list {
+  display: flex;
+  flex-direction: column;
+}
+
 .hotels-list h3 {
   font-size: 21px;
   font-weight: bold;
@@ -530,6 +569,15 @@ a {
 
 .hotels-list h3:active {
   color: rgba(0, 0, 0, 0.3);
+}
+
+.hotel-item {
+  display: flex;
+
+}
+
+.rating {
+  margin-left: auto;
 }
 
 .hotel-item p {
@@ -601,3 +649,18 @@ a {
 }
 
 /*Футер страницы отелей*/
+.page-socials {
+  width: 200px;
+}
+
+.page-social-pages {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.page-footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
